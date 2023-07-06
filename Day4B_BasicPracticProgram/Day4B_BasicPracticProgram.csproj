@@ -51,6 +51,7 @@
     <Compile Include="ReverseWorldOfString.cs" />
     <Compile Include="SquarePatternClass.cs" />
     <Compile Include="SumOfGivenDigit.cs" />
+    <Compile Include="SumOfRowInMatrix.cs" />
     <Compile Include="TrianglePatternProgram.cs" />
     <Compile Include="UniqueElement.cs" />
   </ItemGroup>

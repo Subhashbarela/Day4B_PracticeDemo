@@ -13,7 +13,7 @@ namespace Day4B_BasicPracticProgram
             int[] arr = { 10, 20, 15, 10, 3, 7, 4, 15 };
             int len=arr.Length;
             Console.WriteLine("1: Count Dublicacy in Array \n2: Print Unique Element \n3: Find Frequency \n4: Max And Min Value" +
-                "\n5: Triangle pattern \n6: Square pattern \n7: Reverse Class \n8: Sum of digit");
+                "\n5: Triangle pattern \n6: Square pattern \n7: Reverse Class \n8: Sum of digit \n9: sum of row in matrix");
             Console.WriteLine("Enter youe choice from Above");
             int choice=int.Parse(Console.ReadLine());
             switch (choice)
@@ -68,6 +68,12 @@ namespace Day4B_BasicPracticProgram
                         Console.WriteLine("Enter the number to find sum of digit");
                         int num = int.Parse(Console.ReadLine());
                         sum.SumOfDigit(num);
+                        break;
+                    }
+                case 9:
+                    {
+                        SumOfRowInMatrix sum = new SumOfRowInMatrix();                        
+                       sum.Matrix();
                         break;
                     }
                 default:
