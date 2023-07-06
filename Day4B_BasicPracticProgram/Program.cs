@@ -10,7 +10,10 @@ namespace Day4B_BasicPracticProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HEllo world");
+            int[] arr = { 10, 20, 15, 10, 3, 7, 4, 15 };
+            CountDublicateElm count = new CountDublicateElm();
+            count.CountMethod(arr);
+        Console.ReadKey();
         }
     }
 }
