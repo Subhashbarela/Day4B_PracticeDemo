@@ -48,6 +48,7 @@
     <Compile Include="MaxAndMinValue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseWorldOfString.cs" />
     <Compile Include="SquarePatternClass.cs" />
     <Compile Include="TrianglePatternProgram.cs" />
     <Compile Include="UniqueElement.cs" />
