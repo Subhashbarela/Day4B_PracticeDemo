@@ -12,7 +12,7 @@ namespace Day4B_BasicPracticProgram
         {
             int[] arr = { 10, 20, 15, 10, 3, 7, 4, 15 };
             int len=arr.Length;
-            Console.WriteLine("1: Count Dublicacy in Array \n2: Print Unique Element");
+            Console.WriteLine("1: Count Dublicacy in Array \n2: Print Unique Element \n3: Find Frequency ");
             Console.WriteLine("Enter youe choice from Above");
             int choice=int.Parse(Console.ReadLine());
             switch (choice)
@@ -27,6 +27,12 @@ namespace Day4B_BasicPracticProgram
                     {
                         UniqueElement unique = new UniqueElement();
                         unique.UniqueElementMethod(arr, len);
+                        break;
+                    } 
+                case 3:
+                    {
+                        CountFrequenceOfElem frequency = new CountFrequenceOfElem();
+                        frequency.FrequencyOfElement(arr, len);
                         break;
                     }
                 default:
