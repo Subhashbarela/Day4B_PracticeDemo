@@ -12,7 +12,8 @@ namespace Day4B_BasicPracticProgram
         {
             int[] arr = { 10, 20, 15, 10, 3, 7, 4, 15 };
             int len=arr.Length;
-            Console.WriteLine("1: Count Dublicacy in Array \n2: Print Unique Element \n3: Find Frequency \n4: Max And Min Value");
+            Console.WriteLine("1: Count Dublicacy in Array \n2: Print Unique Element \n3: Find Frequency \n4: Max And Min Value" +
+                "\n5: Triangle pattern");
             Console.WriteLine("Enter youe choice from Above");
             int choice=int.Parse(Console.ReadLine());
             switch (choice)
@@ -40,6 +41,12 @@ namespace Day4B_BasicPracticProgram
                         MaxAndMinValue minmax = new MaxAndMinValue();
                         minmax.MaxiValue(arr, len);
                         minmax.MinValue(arr, len);
+                        break;
+                    }
+                    case 5:
+                    {
+                        TrianglePatternProgram triangle = new TrianglePatternProgram();
+                        triangle.PatternDemo();
                         break;
                     }
                 default:
